@@ -77,9 +77,64 @@
     color: black;
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 .btn-background:hover{
-    border: 2px solid white;
+    border: 1px solid white;
     color: white;
 }
+.about{
+    padding: 130px 0px;
+}
+.about-bg-image{
+    background-image: url(../images/about-banner.jpg);
+    height: 400px;
+    position: relative !important;
+    background-size: cover !important;
+    background-position: center top!important;
+}
+.opacity-meduim{
+   height: 100%;
+   opacity: 0.75;
+   background-color: #1c1c1c;
+}
+.about-span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.about-h1{
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+}
+.p-130{
+    padding: 130px 0px;
+}
+.about-info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+.about-h6{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+.about-p{
+    font-family: "Roboto", sans-serif;
+}
+.btn-background-dark{
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.btn-background-dark:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+
 
