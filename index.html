@@ -91,7 +91,7 @@
         <section>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide-1">
                         <div class="img-1">
                             <div class="swiper-content d-flex align-items-center justify-content-center h-100 position-relative">
                                 <div>
@@ -103,7 +103,7 @@
                         </div>
 
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide-1">
                         <div class="img-2">
                             <div class="swiper-content d-flex align-items-center justify-content-center h-100 position-relative">
                                 <div>
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                    <div class="swiper-slide swiper-slide-1">
                         <div class="img-3">
                             <div class="swiper-content d-flex align-items-center justify-content-center h-100 position-relative">
                                 <div>
@@ -142,11 +142,16 @@
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
             centeredSlides: true,
+           
 
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
             },
+            autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
 
         });
     </script>
