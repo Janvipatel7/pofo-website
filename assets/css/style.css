@@ -125,11 +125,12 @@
 }
 .btn-background-dark{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
     font-size: 12px;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
+    
 }
 .btn-background-dark:hover{
     border: 1px solid black;
@@ -152,6 +153,21 @@
 .icon-social-small{
     font-size: 14px;
     padding: 12%;
+    position: relative;
+    background: #1c1c1c;
+    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+.icon-social-small:hover{
+   opacity: .8;
+   bottom: 0;
+}
+.icon-social-small i:hover{
+    color: #ff214f !important;
+    cursor: pointer;
 }
 .team-image span{
     font-size: 12px;
@@ -165,6 +181,100 @@
     margin-bottom: 11%;
     background-color: #ff214f;
 }
-
-
+.team-image-name{
+    font-weight: 500;
+    color: #232323;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.name-t{
+    color: #939393;
+    font-size: 11px;
+    line-height: 14px;
+}
+.footer{
+    background-color: #1c1c1c;
+}
+.footer-h6{
+    color: #626262;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.footer-span{
+    font-size: 14px;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+}
+.text-extra{
+    font-size: 11px;
+    line-height: 14px;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+}
+.text-extra li:hover{
+    color: #ff214f;
+    cursor: pointer;
+}
+.border-color-medium-dark-gray {
+    border-top: 1px solid #363636 !important;
+}
+.text-small{
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Roboto", sans-serif;
+}
+.scroll-top.active {
+    visibility: visible;
+    opacity: 1;
+    bottom: 15px;
+}
+.scroll-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: -15px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    background-color: #626262;
+    color: white;
+}
+.scroll-top i{
+    font-size: 25px;
+}
+.scroll-top:hover{
+    background-color: #000000;
+    color: white;
+}
+.services-bg-image{
+    background-image: url(../images/services-bg.jpg);
+    height: 400px;
+    position: relative !important;
+    background-size: cover !important;
+    background-position: center top!important;
+}
+.services-hero-h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+.services-section{
+    position: relative;
+}
+.hover-content{
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateX(180deg);
+    /* opacity: 0; */
+    background-color: #ff214f;
+    color: white;
+}
 
