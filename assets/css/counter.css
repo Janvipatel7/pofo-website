@@ -1,0 +1,32 @@
+
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgba(52, 54, 54, 0.686);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: verdana;
+  float: left;
+  margin: 30px;
+}
+.char-text{
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+ 
+}

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home page</title>
     <!-- bootstrap css link -->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- style css link -->
@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
     <!-- swiper css -->
     <link rel="stylesheet" href="./assets/css/swiper.css">
+    <!-- counter css -->
+    <link rel="stylesheet" href="./assets/css/counter.css">
 
 </head>
 
@@ -53,7 +55,7 @@
                                     blog
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#"> blog standerd</a></li>
+                                    <li><a class="dropdown-item" href="blog.html"> blog standerd</a></li>
                                     <li><a class="dropdown-item" href="#"> blog classic</a></li>
                                     <li><a class="dropdown-item" href="#"> blog simple</a></li>
                                 </ul>
@@ -144,6 +146,55 @@
                 <div class="swiper-pagination"></div>
             </div>
         </section>
+
+        <!-- conter section -->
+        <section class="p-130">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div>
+                            <div class="position-relative text-center">
+                                <div class="counter" data-speed="1000">90</div>
+                                <div class="char-text">
+                                    <span class="text-uppercase text-secondary fw-semibold text-center">Graphic Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <div class="position-relative text-center">
+                                <div class="counter" data-speed="1000">75</div>
+                                <div class="char-text">
+                                    <span class="text-uppercase text-secondary fw-semibold">Web Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <div class="position-relative text-center">
+                                <div class="counter" data-speed="1000">90</div>
+                                <div class="char-text">
+                                    <span class="text-uppercase text-secondary fw-semibold">Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div>
+                            <div class="position-relative text-center">
+                                <div class="counter" data-speed="1000">62</div>
+                                <div class="char-text">
+                                    <span class="text-uppercase text-secondary fw-semibold">Photography</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="py-5 footer">
         <div class="pb-5">
@@ -191,6 +242,8 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <!-- swiper js link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- counter js link -->
+    <script src="./assets/js/counter.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
             spaceBetween: 30,
